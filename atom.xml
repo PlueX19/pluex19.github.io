@@ -2,13 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pluex19.github.io</id>
     <title>PlueX19</title>
-    <updated>2020-10-12T10:18:16.508Z</updated>
+    <updated>2020-10-12T10:18:37.170Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://pluex19.github.io"/>
     <link rel="self" href="https://pluex19.github.io/atom.xml"/>
     <logo>https://pluex19.github.io/images/avatar.png</logo>
     <icon>https://pluex19.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, PlueX19</rights>
+    <entry>
+        <title type="html"><![CDATA[test]]></title>
+        <id>https://pluex19.github.io/post/test/</id>
+        <link href="https://pluex19.github.io/post/test/">
+        </link>
+        <updated>2020-10-12T10:18:24.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://pluex19.github.io/post/hello-gridea/</id>
