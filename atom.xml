@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pluex19.github.io</id>
     <title>PlueX19</title>
-    <updated>2020-11-07T12:58:12.160Z</updated>
+    <updated>2020-11-07T13:00:03.521Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://pluex19.github.io"/>
     <link rel="self" href="https://pluex19.github.io/atom.xml"/>
@@ -11,16 +11,14 @@
     <icon>https://pluex19.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, PlueX19</rights>
     <entry>
-        <title type="html"><![CDATA[MacBook无法自动切换深色模式处理方法]]></title>
+        <title type="html"><![CDATA[MacBook自动切换深色模式失败]]></title>
         <id>https://pluex19.github.io/post/zhan-ge-wei-zhi/</id>
         <link href="https://pluex19.github.io/post/zhan-ge-wei-zhi/">
         </link>
         <updated>2020-10-12T11:25:34.000Z</updated>
-        <summary type="html"><![CDATA[<p>更新了最新的MacOS后发现无法自动切换深色模式？<br>
-经过排查，原因是之前设置过「夜览」自动开启的时间，需要重新配置夜览功能的开启时间，MacOS的深色模式似乎和「夜览」模式是关联的。</p>
+        <summary type="html"><![CDATA[<p>更新了最新的MacOS后发现无法自动切换深色模式？</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>更新了最新的MacOS后发现无法自动切换深色模式？<br>
-经过排查，原因是之前设置过「夜览」自动开启的时间，需要重新配置夜览功能的开启时间，MacOS的深色模式似乎和「夜览」模式是关联的。</p>
+        <content type="html"><![CDATA[<p>更新了最新的MacOS后发现无法自动切换深色模式？</p>
 ]]></content>
     </entry>
 </feed>
