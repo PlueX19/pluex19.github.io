@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pluex19.github.io</id>
     <title>PlueX19</title>
-    <updated>2020-11-07T12:37:05.541Z</updated>
+    <updated>2020-11-07T12:57:44.643Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://pluex19.github.io"/>
     <link rel="self" href="https://pluex19.github.io/atom.xml"/>
-    <subtitle>一个脱离了低级趣味的</subtitle>
+    <subtitle>一个脱离了低级趣味的产品经理</subtitle>
     <logo>https://pluex19.github.io/images/avatar.png</logo>
     <icon>https://pluex19.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, PlueX19</rights>
@@ -16,5 +16,11 @@
         <link href="https://pluex19.github.io/post/zhan-ge-wei-zhi/">
         </link>
         <updated>2020-10-12T11:25:34.000Z</updated>
+        <summary type="html"><![CDATA[<p>更新了最新的MacOS后发现无法自动切换深色模式？<br>
+经过排查，原因是之前设置过「夜览」自动开启的时间，需要重新配置夜览功能的开启时间，MacOS的深色模式似乎和「夜览」模式是关联的。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>更新了最新的MacOS后发现无法自动切换深色模式？<br>
+经过排查，原因是之前设置过「夜览」自动开启的时间，需要重新配置夜览功能的开启时间，MacOS的深色模式似乎和「夜览」模式是关联的。</p>
+]]></content>
     </entry>
 </feed>
