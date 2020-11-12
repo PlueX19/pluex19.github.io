@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pluex19.github.io</id>
-    <title></title>
-    <updated>2020-11-12T12:38:00.504Z</updated>
+    <title>Plue</title>
+    <updated>2020-11-12T12:38:29.941Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://pluex19.github.io"/>
     <link rel="self" href="https://pluex19.github.io/atom.xml"/>
     <subtitle>一个脱离了低级趣味的…</subtitle>
     <logo>https://pluex19.github.io/images/avatar.png</logo>
     <icon>https://pluex19.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, </rights>
+    <rights>All rights reserved 2020, Plue</rights>
     <entry>
         <title type="html"><![CDATA[今天吃什么 by废话生成器]]></title>
         <id>https://pluex19.github.io/post/jin-tian-chi-shi-me/</id>
