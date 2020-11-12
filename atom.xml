@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pluex19.github.io</id>
     <title>Plue</title>
-    <updated>2020-11-12T13:09:20.318Z</updated>
+    <updated>2020-11-12T13:17:50.922Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://pluex19.github.io"/>
     <link rel="self" href="https://pluex19.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://pluex19.github.io/images/avatar.png</logo>
     <icon>https://pluex19.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Plue</rights>
+    <entry>
+        <title type="html"><![CDATA[关于管理的方法论]]></title>
+        <id>https://pluex19.github.io/post/guan-yu-guan-li-de-fang-fa-lun/</id>
+        <link href="https://pluex19.github.io/post/guan-yu-guan-li-de-fang-fa-lun/">
+        </link>
+        <updated>2020-11-12T13:17:24.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[今天吃什么 by废话生成器]]></title>
         <id>https://pluex19.github.io/post/jin-tian-chi-shi-me/</id>
