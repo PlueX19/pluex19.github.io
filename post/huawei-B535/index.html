@@ -1,0 +1,281 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>华为移动路由PRO（B535-836）实际试用的一些测试 | Plue</title>
+
+<link rel="shortcut icon" href="https://pluex19.github.io/favicon.ico?v=1667026044141">
+
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://pluex19.github.io/styles/main.css">
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"> -->
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/highlight.js/9.12.0/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/highlight.js/9.12.0/languages//dart.min.js"></script>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script> -->
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-180315513-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'UA-180315513-1');
+</script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="/">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            Plue
+        </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="changeNavbar">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+            <div class="nav-item">
+                
+                <a href="/" class="menu gt-a-link">
+                    首页
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/archives" class="menu gt-a-link">
+                    归档
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/tags" class="menu gt-a-link">
+                    标签
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/post/about" class="menu gt-a-link">
+                    关于
+                </a>
+                
+            </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1667026044141"
+                action="/search/">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+<script>
+    /* 移动端导航栏展开/收起切换 */
+    document.getElementById('changeNavbar').onclick = () => {
+        var element = document.getElementById('navbarSupportedContent');
+        if (element.style.display === 'none' || element.style.display === '') {
+            element.style.display = 'block';
+        } else {
+            element.style.display = 'none';
+        }
+    }
+</script>
+
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    华为移动路由PRO（B535-836）实际试用的一些测试
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2022-10-27 ·
+                    </time>
+                    
+                        <a href="https://pluex19.github.io/tag/MqEfR86EP7/" class="post-tags">
+                            # 路由器
+                        </a>
+                    
+                </div>
+                <div class="post-content">
+                    <h1 id="几个关键参数">几个关键参数</h1>
+<h2 id="rsrqreference-signal-receiving-quality参考信号接收质量">RSRQ（Reference Signal Receiving Quality，参考信号接收质量）</h2>
+<p>https://baike.baidu.com/item/RSRQ/8266810<br>
+范围：-3~-19.5<br>
+绝对值越小越好</p>
+<h2 id="rsrp-reference-signal-receiving-power参考信号接收功率">RSRP (Reference Signal Receiving Power，参考信号接收功率）</h2>
+<p>https://baike.baidu.com/item/RSRP/9967275<br>
+范围：<br>
+Rx &gt; -65 最好<br>
+-75&lt; Rx &lt;= -65   好<br>
+-85 &lt; Rx &lt;= -75    一般<br>
+-95 &lt; Rx &lt;= -85   差</p>
+<h2 id="rssireceived-signal-strength-indicator接收信号强度指示">RSSI（Received Signal Strength Indicator，接收信号强度指示）</h2>
+<p>https://baike.baidu.com/item/rssi/10924837</p>
+<p>一般在-50dBm~-90dBm<br>
+-60dBm以上属于信号好<br>
+<img src="https://pluex19.github.io/post-images/1667025974238.png" alt="" loading="lazy"></p>
+<h2 id="sinrsignal-to-interference-plus-noise-ratio信号与干扰加噪声比信噪比">SINR（Signal to Interference plus Noise Ratio，信号与干扰加噪声比（信噪比））</h2>
+<p>https://baike.baidu.com/item/SINR/5821731<br>
+TD-LTE局点，99%区域，SINR&gt;-3dB<br>
+外场，99.25%区域，SINR&gt;-3dB</p>
+<h1 id="测试结果">测试结果</h1>
+<h2 id="地点1">地点1</h2>
+<ol>
+<li>联通4G网络（5G套餐）</li>
+<li>手机（iPhone 13 mini）信号2格（RSRQ约-17dB，RSRP约-100dBm左右）</li>
+<li>华为移动路由PRO使用内置天线</li>
+</ol>
+<h3 id="数据如下">数据如下：</h3>
+<p>2022-11-27 14:21<br>
+RSRQ -11.0dB<br>
+RSRP -94dBm<br>
+RSSI -65dBm<br>
+SINR -4dB</p>
+<p>2022-11-27 14:38<br>
+RSRQ -12.0dB<br>
+RSRP -95dBm<br>
+RSSI -66dBm<br>
+SINR -1dB</p>
+<h2 id="地点2">地点2</h2>
+<ol>
+<li>电信4G网络（5G套餐）</li>
+<li>其余参与与地点1一致</li>
+</ol>
+<h3 id="数据如下-2">数据如下：</h3>
+<p>RSRQ -10.0dB<br>
+RSRP -87dBm<br>
+RSSI -56dBm<br>
+SINR -2dB</p>
+<p>RSRQ -8.0dB<br>
+RSRP -86dBm<br>
+RSSI -56dBm<br>
+SINR -1dB</p>
+<p>RSRQ -9.0dB<br>
+RSRP -87dBm<br>
+RSSI -56dBm<br>
+SINR -2dB</p>
+<p>RSRQ -11.0dB<br>
+RSRP -86dBm<br>
+RSSI -55dBm<br>
+SINR -3dB</p>
+<p>RSRQ -11.0dB<br>
+RSRP -86dBm<br>
+RSSI -55dBm<br>
+SINR -4dB</p>
+<h3 id="下载速度">下载速度</h3>
+<figure data-type="image" tabindex="1"><img src="https://pluex19.github.io/post-images/1666857474789.png" alt="" loading="lazy"></figure>
+
+                </div>
+            </article>
+        </div>
+
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://pluex19.github.io/post/doxx-a-picture/" class="post-title gt-a-link">
+                    「网络迷踪」 通过一张照片找到拍摄位置
+                </a>
+            </div>
+        
+
+        
+            <span id="/post/huawei-B535/" class="leancloud_visitors" data-flag-title="华为移动路由PRO（B535-836）实际试用的一些测试">
+                <em class="post-meta-item-text">阅读量 </em>
+                <i class="leancloud-visitors-count">0</i>
+            </span>
+        
+
+        
+
+        
+            <script src='https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js'></script>
+
+<style>
+	div#vcomments{
+		width:100%;
+		max-width: 1000px;
+		padding: 2.5%
+	}
+</style>
+
+
+	<div id="vcomments"></div>
+
+<script>
+	new Valine({
+		el: '#vcomments',
+		appId: 'HDcCrMNNgO5RkTdLXQgBjy6l-gzGzoHsz',
+		appKey: 'EPOEeizVGnlmY9cXodSqyXsg',
+		avatar: '',
+		pageSize: 5,
+		recordIp: true,
+		placeholder: '说点儿什么',
+		visitor: true,
+	});
+</script>
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">一个脱离了低级趣味的…</div>
+    <div class="social-container">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        ©2022 Plue
+    </div>
+    <div>
+        Theme <a href="https://github.com/imhanjie/gridea-theme-pure" target="_blank">Pure</a>, Powered by <a
+                href="https://gridea.dev" target="_blank">Gridea</a> | <a href="https://pluex19.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+</div>
+
+<script>
+  hljs.highlightAll()
+</script>
+
+    </div>
+</div>
+</body>
+</html>

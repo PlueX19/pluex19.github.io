@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://pluex19.github.io</id>
+    <title>Plue</title>
+    <updated>2022-10-29T06:47:30.705Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://pluex19.github.io"/>
+    <link rel="self" href="https://pluex19.github.io/atom.xml"/>
+    <subtitle>一个脱离了低级趣味的…</subtitle>
+    <logo>https://pluex19.github.io/images/avatar.png</logo>
+    <icon>https://pluex19.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, Plue</rights>
+    <entry>
+        <title type="html"><![CDATA[华为移动路由PRO（B535-836）实际试用的一些测试]]></title>
+        <id>https://pluex19.github.io/post/huawei-B535/</id>
+        <link href="https://pluex19.github.io/post/huawei-B535/">
+        </link>
+        <updated>2022-10-27T07:55:43.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「网络迷踪」 通过一张照片找到拍摄位置]]></title>
+        <id>https://pluex19.github.io/post/doxx-a-picture/</id>
+        <link href="https://pluex19.github.io/post/doxx-a-picture/">
+        </link>
+        <updated>2022-04-02T08:41:27.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>之前在B站上面看过一个视频，UP通过一张飞机上拍摄的照片找到了飞机下方地点的位置。昨天查找了一番，发现这是来自于炒饭（chao.fun）“网络迷踪”板块的一些任务，出于好奇，注册了炒饭的账号，开始了一次完整的寻找探索。<br>
+B站视频： <a href="https://www.bilibili.com/video/BV1Fv411V7cQ/">你绝对猜不到我从粉丝给的这张照片中发现了什么？【网络迷踪7】</a></p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>之前在B站上面看过一个视频，UP通过一张飞机上拍摄的照片找到了飞机下方地点的位置。昨天查找了一番，发现这是来自于炒饭（chao.fun）“网络迷踪”板块的一些任务，出于好奇，注册了炒饭的账号，开始了一次完整的寻找探索。<br>
+B站视频： <a href="https://www.bilibili.com/video/BV1Fv411V7cQ/">你绝对猜不到我从粉丝给的这张照片中发现了什么？【网络迷踪7】</a></p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MacOS原生「便签」应用体验]]></title>
+        <id>https://pluex19.github.io/post/macos-note/</id>
+        <link href="https://pluex19.github.io/post/macos-note/">
+        </link>
+        <updated>2021-08-23T05:35:02.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>便签几乎是桌面端必备应用，一个好用的“便签”可以解决很多复杂化的问题，最近一段时间试用了Mac中的便签应用，五味杂陈……</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>便签几乎是桌面端必备应用，一个好用的“便签”可以解决很多复杂化的问题，最近一段时间试用了Mac中的便签应用，五味杂陈……</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于管理的方法论]]></title>
+        <id>https://pluex19.github.io/post/guan-yu-guan-li-de-fang-fa-lun/</id>
+        <link href="https://pluex19.github.io/post/guan-yu-guan-li-de-fang-fa-lun/">
+        </link>
+        <updated>2020-11-12T13:17:24.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[今天吃什么？这是个问题]]></title>
+        <id>https://pluex19.github.io/post/what-to-eat-today/</id>
+        <link href="https://pluex19.github.io/post/what-to-eat-today/">
+        </link>
+        <updated>2020-11-09T08:52:20.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MacBook自动切换深色模式失败]]></title>
+        <id>https://pluex19.github.io/post/macos-darkmode/</id>
+        <link href="https://pluex19.github.io/post/macos-darkmode/">
+        </link>
+        <updated>2020-10-12T11:25:34.000Z</updated>
+        <summary type="html"><![CDATA[<p>更新了最新的MacOS后发现无法自动切换深色模式？👾</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>更新了最新的MacOS后发现无法自动切换深色模式？👾</p>
+]]></content>
+    </entry>
+</feed>
